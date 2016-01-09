@@ -1,0 +1,31 @@
+import java.util.*;
+
+      public class Factorial {
+
+      public static void main(String[] args) {
+        Scanner c=new Scanner(System.in);
+        System.out.println(" INTEGER VALUE TO FIND FACTORIAL AND FIBONACCI");
+        int num=c.nextInt();
+        if(num > 0){
+        int f=1;
+        for(int i=1;i<=num;i++){
+            f=f*i;
+        }
+        System.out.println("FACTORIAL OF " + num +"\t="+ f);    
+     int a=0;
+         System.out.println("FIBONACCI OF NUM IS="+ num);
+        System.out.print(a);
+        int b=1;
+       for(int i=1;i<=num;i++){
+           b=a+b;
+           a=a+b;
+           System.out.print(" ,"+(b));
+           System.out.print(" ,"+(a));
+       }
+        }
+        else { 
+      System.out.println("THE enterd value IS LESSTHAN ZERO "); 
+    
+    }
+    }
+   }
