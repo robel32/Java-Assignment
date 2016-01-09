@@ -1,0 +1,16 @@
+import java.util.*;
+       public class Assinment {
+
+   
+      public static void main(String[] args) {
+        Scanner i=new Scanner(System.in);
+        String reverse="";
+        System.out.println("ENTER STRING TO REVARSE");
+       String orign=i.nextLine();
+       int length=orign.length();
+      for(int i=length-1;i>=0;i--){
+         reverse=reverse+orign.charAt(i);
+      }
+         System.out.println("REVERSE OF ENTRED STRING IS\t"+ reverse); 
+      } 
+    }
