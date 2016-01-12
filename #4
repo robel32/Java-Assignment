@@ -14,3 +14,9 @@ import java.util.*;
          System.out.println("REVERSE OF ENTRED STRING IS\t"+ reverse); 
       } 
     }
+/*
+group members-Daniel zeslus-----------Eitm/83631/07  
+              Robel Azanaw------------Eitm/83968/07
+              Aberiham Mengistu-------Eitm/1633339/06
+              Abemelek
+              */
